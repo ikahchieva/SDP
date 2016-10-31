@@ -126,7 +126,7 @@ void Stack<T>::pop()
 template<class T>
 const T& Stack<T>::peek()const
 {
-	return top;
+	return top->data;
 }
 template<class T>
 void Stack<T>::print()const
